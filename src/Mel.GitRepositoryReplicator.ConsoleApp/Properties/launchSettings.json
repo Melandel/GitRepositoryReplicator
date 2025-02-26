@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Mel.GitRepositoryReplicator.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "-- toto"
+    }
+  }
+}

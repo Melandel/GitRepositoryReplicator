@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mel.GitRepositoryReplicator.Application\Mel.GitRepositoryReplicator.Application.csproj" />
+    <ProjectReference Include="..\Mel.GitRepositoryReplicator.ConsoleApp\Mel.GitRepositoryReplicator.ConsoleApp.csproj" />
+    <ProjectReference Include="..\Mel.GitRepositoryReplicator.CrossCuttingConcerns\Mel.GitRepositoryReplicator.CrossCuttingConcerns.csproj" />
+    <ProjectReference Include="..\Mel.GitRepositoryReplicator.Domain\Mel.GitRepositoryReplicator.Domain.csproj" />
+    <ProjectReference Include="..\Mel.GitRepositoryReplicator.Infrastructure\Mel.GitRepositoryReplicator.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

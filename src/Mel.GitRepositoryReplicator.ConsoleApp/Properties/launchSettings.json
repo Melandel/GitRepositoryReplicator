@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Mel.GitRepositoryReplicator.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--sourceId https://github.com/Melandel/dotnet-web-service.git --targetRepositoryPath C:\\Users\\tranm\\Desktop\\projects\\foo\\ --targetRepositoryName ReplicatedRepository --targetRepositoryRootNamespace Test.SomeNamespace --targetRepositoryApiLanguage en --targetRepositoryMessagesLanguage en --targetRepositoryDocumentationLanguage fr --targetRepositoryCommitMessagesLanguage en"
+    }
+  }
+}
